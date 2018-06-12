@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "content": "吃瓜123",
+    "user_id": 0
+  },
+  {
+    "id": 1,
+    "content": "123",
+    "user_id": 1
+  },
+  {
+    "id": 2,
+    "content": "123",
+    "user_id": 1
+  },
+  {
+    "id": 3,
+    "content": "",
+    "user_id": 0
+  }
+]

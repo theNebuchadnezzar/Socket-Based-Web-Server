@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weibo</title>
+    <style>
+        .comment {
+            border: 1px red solid;
+        }
+    </style>
+</head>
+<body>
+        <input id='id-input-weibo'>
+        <button id='id-button-add'>添加</button>
+        <div id="id-weibo-list">
+        </div>
+        <!-- 这是我们处理静态文件的套路 -->
+        <!-- dong.js 放了公共的函数 -->
+        <!-- 按顺序引入 2 个 js 文件, 后面的 js 文件就能使用前面的文件中的函数了 -->
+        <script src='/static?file=dong.js'></script>
+        <script src='/static?file=weibo.js'></script>
+</body>
+</html>
